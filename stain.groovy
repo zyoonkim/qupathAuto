@@ -1,5 +1,5 @@
 def project = getProject() 
-def outputDir = new File("/Users/zyoonkim/Downloads/UROPQuPath/codeddata")  
+def outputDir = new File("/Users/zyoonkim/cs/qupathAutomation/UROPQuPath/codeddata/annotation_summary.csv")  
 
 // Ensure the output directory exists
 if (!outputDir.exists()) {
