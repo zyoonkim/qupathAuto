@@ -1,68 +1,54 @@
-// Load the current project
-def project = getProject()
-if (project == null) {
-    println("No project is open. Please open a QuPath project first.")
-    return
-}
+// Open CSV file for results
+def csvFile = new File(buildFilePath(PROJECT_BASE_DIR, 'cell_detection_results.csv'))
+csvFile.text = "ImageName,TotalCells,NegativeCells,PositivePercentage,PositiveArea\n"
 
-def csvFile = new File("/path/to/your/output.csv") // Update with your desired CSV path
-def header = "Image,Cell Count,Positive Cell Count,Measurements\n"
+// Loop through all images in the project
+for (entry in getProject().getImageList()) {
+    println("Activating image: ${entry.getImageName()}")
 
-// Ensure the CSV file has the header
-if (!csvFile.exists()) {
-    println("Creating CSV file with header")
-    csvFile.write(header)
-}
-
-for (entry in project.getImageList()) {
+    // Get ImageData and set it as the current image
     def imageData = entry.readImageData()
-    def imageName = entry.getImageName()
-    
-    println("Processing image: ${imageName}")
+    setBatchProjectAndImage(getProject(), imageData)
 
-    // Set image type and color deconvolution stains
-    setImageType('BRIGHTFIELD_H_DAB')
-    setColorDeconvolutionStains('{"Name" : "H-DAB estimated", ' +
-        '"Stain 1" : "Hematoxylin", "Values 1" : "0.8228 0.52632 0.21444", ' +
-        '"Stain 2" : "DAB", "Values 2" : "0.32346 0.46972 0.82142", ' +
-        '"Background" : "232 232 231"}')
-
-    setImageData(imageData)
+    // Create full image annotation
     createFullImageAnnotation(true)
 
-    // Run the cell detection plugin
+    // Run positive cell detection
     runPlugin('qupath.imagej.detect.cells.PositiveCellDetection',
     '{"detectionImageBrightfield": "Hematoxylin OD", ' +
-    ' "requestedPixelSizeMicrons": 0.5, ' +
-    ' "backgroundRadiusMicrons": 8.0, ' +
-    ' "medianRadiusMicrons": 0.0, ' +
-    ' "sigmaMicrons": 1.5, ' +
-    ' "minAreaMicrons": 10.0, ' +
-    ' "maxAreaMicrons": 400.0, ' +
-    ' "threshold": 0.1, ' +
-    ' "maxBackground": 2.0, ' +
-    ' "watershedPostProcess": true, ' +
-    ' "excludeDAB": false, ' +
-    ' "cellExpansionMicrons": 8.0, ' +
-    ' "includeNuclei": true, ' +
-    ' "smoothBoundaries": true, ' +
-    ' "makeMeasurements": true, ' +
-    ' "thresholdCompartment": "Cytoplasm: DAB OD mean", ' +
-    ' "thresholdPositive1": 0.2, ' +
-    ' "thresholdPositive2": 0.4, ' +
-    ' "thresholdPositive3": 0.6, ' +
+    '"requestedPixelSizeMicrons": 0.5, ' +
+    '"backgroundRadiusMicrons": 8.0, ' +
+    '"medianRadiusMicrons": 0.0, ' +
+    '"sigmaMicrons": 1.5, ' +
+    '"minAreaMicrons": 10.0, ' +
+    '"maxAreaMicrons": 400.0, ' +
+    '"threshold": 0.1, ' +
+    '"maxBackground": 2.0, ' +
+    '"watershedPostProcess": true, ' +
+    '"excludeDAB": false, ' +
+    '"cellExpansionMicrons": 8.0, ' +
+    '"includeNuclei": true, ' +
+    '"smoothBoundaries": true, ' +
+    '"makeMeasurements": true, ' +
+    '"thresholdCompartment": "Cytoplasm: DAB OD mean", ' +
+    '"thresholdPositive1": 0.2, ' +
+    '"thresholdPositive2": 0.4, ' +
+    '"thresholdPositive3": 0.6, ' +
     '"singleThreshold": true}')
 
-    // Collect measurements and cell counts
-    def cellCount = getCellCount()
-    def positiveCells = getPositiveCellCount()
-    def measurements = getMeasurementList().collect { it.name }
+    // Analyze detection results
+    def detections = getDetectionObjects()
+    def cellCount = detections.size()
+    def positiveCells = detections.findAll { it.getPathClass() == getPathClass('Positive') }
+    def numNegative = cellCount - positiveCells.size()
+    def positivePercentage = (cellCount > 0) ? (positiveCells.size() / cellCount) * 100 : 0
+    def positiveArea = positiveCells.collect { it.getROI()?.getArea() ?: 0 }.sum()
 
-    // Write the data to CSV
-    def data = "${imageName},${cellCount},${positiveCells},${measurements.join(';')}\n"
+    // Append results to CSV
+    def data = "${entry.getImageName()},${cellCount},${numNegative},${positivePercentage.round(2)},${positiveArea}\n"
     csvFile.append(data)
 
-    println("Processed and saved data for: ${imageName}")
+    println("Processed and saved data for: ${entry.getImageName()}")
 }
 
 println("Script execution complete.")
