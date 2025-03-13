@@ -1,5 +1,5 @@
 # Wipe the contents of a CSV file
-csv_file_path = '/Users/zyoonkim/cs/qupathAutomation/analysisProject/cell_detection_results.csv'
+csv_file_path = '/Users/zyoonkim/cs/qupathAutomation/cell_detection_results.csv'
 
 # Open the file in write mode to clear it
 with open(csv_file_path, 'w') as file:

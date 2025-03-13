@@ -1,5 +1,6 @@
 // Open CSV file for results
-def csvFile = new File(buildFilePath(PROJECT_BASE_DIR, 'cell_detection_results.csv'))
+// def csvFile = new File(buildFilePath(PROJECT_BASE_DIR, 'cell_detection_results.csv'))
+def csvFile = new File('/Users/zyoonkim/cs/qupathAutomation/cell_detection_results.csv')
 csvFile.text = "ImageName,TotalCells,NegativeCells,PositivePercentage,PositiveArea\n"
 
 // Loop through all images in the project
