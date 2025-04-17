@@ -3,19 +3,19 @@
   "createTimestamp": 1738870577290,
   "modifyTimestamp": 1738870577290,
   "uri": "file:/Users/zyoonkim/cs/qupathAutomation/analysisProject/project.qpproj",
-  "lastID": 13,
+  "lastID": 43,
   "images": [
     {
       "serverBuilder": {
         "builderType": "uri",
         "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
-        "uri": "file:/Users/zyoonkim/cs/qupathAutomation/analysisProject/imgs/Hepcidin%20Stain/11.1.jpg",
+        "uri": "file:/Users/zyoonkim/cs/qupathAutomation/UROPQuPath/Ben_KO_imgs/actin-4607.10-obj10x.jpg",
         "args": [
           "--series",
           "0"
         ],
         "metadata": {
-          "name": "11.1.jpg",
+          "name": "actin-4607.10-obj10x.jpg",
           "width": 1920,
           "height": 1440,
           "sizeZ": 1,
@@ -64,22 +64,22 @@
           "preferredTileHeight": 1440
         }
       },
-      "entryID": 10,
-      "randomizedName": "4044f791-4611-479d-b048-2bb9f241fb51",
-      "imageName": "11.1.jpg",
+      "entryID": 23,
+      "randomizedName": "1ac84224-a08e-4089-9b90-8d8d93044ddd",
+      "imageName": "actin-4607.10-obj10x.jpg",
       "metadata": {}
     },
     {
       "serverBuilder": {
         "builderType": "uri",
         "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
-        "uri": "file:/Users/zyoonkim/cs/qupathAutomation/analysisProject/imgs/Hepcidin%20Stain/11.4.jpg",
+        "uri": "file:/Users/zyoonkim/cs/qupathAutomation/UROPQuPath/Ben_KO_imgs/actin-4609.00-obj10x.jpg",
         "args": [
           "--series",
           "0"
         ],
         "metadata": {
-          "name": "11.4.jpg",
+          "name": "actin-4609.00-obj10x.jpg",
           "width": 1920,
           "height": 1440,
           "sizeZ": 1,
@@ -128,137 +128,294 @@
           "preferredTileHeight": 1440
         }
       },
-      "entryID": 11,
-      "randomizedName": "f1b65fc8-9f4a-408e-8326-0c6017d7fce1",
-      "imageName": "11.4.jpg",
+      "entryID": 24,
+      "randomizedName": "6e6d1383-3b6b-4728-b811-14ec27e3611e",
+      "imageName": "actin-4609.00-obj10x.jpg",
       "metadata": {}
     },
     {
       "serverBuilder": {
         "builderType": "uri",
         "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
-        "uri": "file:/Users/zyoonkim/cs/qupathAutomation/analysisProject/imgs/Hepcidin%20Stain/12.4.jpg",
+        "uri": "file:/Users/zyoonkim/cs/qupathAutomation/UROPQuPath/Ben_KO_imgs/actin-4609.03-obj10x.jpg",
         "args": [
           "--series",
           "0"
-        ],
-        "metadata": {
-          "name": "12.4.jpg",
-          "width": 1920,
-          "height": 1440,
-          "sizeZ": 1,
-          "sizeT": 1,
-          "channelType": "DEFAULT",
-          "isRGB": true,
-          "pixelType": "UINT8",
-          "levels": [
-            {
-              "downsample": 1.0,
-              "width": 1920,
-              "height": 1440
-            }
-          ],
-          "channels": [
-            {
-              "name": "Red",
-              "color": -65536
-            },
-            {
-              "name": "Green",
-              "color": -16711936
-            },
-            {
-              "name": "Blue",
-              "color": -16776961
-            }
-          ],
-          "pixelCalibration": {
-            "pixelWidth": {
-              "value": 1.0,
-              "unit": "px"
-            },
-            "pixelHeight": {
-              "value": 1.0,
-              "unit": "px"
-            },
-            "zSpacing": {
-              "value": 1.0,
-              "unit": "z-slice"
-            },
-            "timeUnit": "SECONDS",
-            "timepoints": []
-          },
-          "preferredTileWidth": 1920,
-          "preferredTileHeight": 1440
-        }
+        ]
       },
-      "entryID": 12,
-      "randomizedName": "a4e866f6-a4de-40ba-9a77-6429d3a8675b",
-      "imageName": "12.4.jpg",
+      "entryID": 25,
+      "randomizedName": "3ecd422c-d633-4b3a-8ee9-0b7ed9fc7a50",
+      "imageName": "actin-4609.03-obj10x.jpg",
       "metadata": {}
     },
     {
       "serverBuilder": {
         "builderType": "uri",
         "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
-        "uri": "file:/Users/zyoonkim/cs/qupathAutomation/analysisProject/imgs/Hepcidin%20Stain/13.2.jpg",
+        "uri": "file:/Users/zyoonkim/cs/qupathAutomation/UROPQuPath/Ben_KO_imgs/actin-4609.10-obj10x.jpg",
         "args": [
           "--series",
           "0"
-        ],
-        "metadata": {
-          "name": "13.2.jpg",
-          "width": 1920,
-          "height": 1440,
-          "sizeZ": 1,
-          "sizeT": 1,
-          "channelType": "DEFAULT",
-          "isRGB": true,
-          "pixelType": "UINT8",
-          "levels": [
-            {
-              "downsample": 1.0,
-              "width": 1920,
-              "height": 1440
-            }
-          ],
-          "channels": [
-            {
-              "name": "Red",
-              "color": -65536
-            },
-            {
-              "name": "Green",
-              "color": -16711936
-            },
-            {
-              "name": "Blue",
-              "color": -16776961
-            }
-          ],
-          "pixelCalibration": {
-            "pixelWidth": {
-              "value": 1.0,
-              "unit": "px"
-            },
-            "pixelHeight": {
-              "value": 1.0,
-              "unit": "px"
-            },
-            "zSpacing": {
-              "value": 1.0,
-              "unit": "z-slice"
-            },
-            "timeUnit": "SECONDS",
-            "timepoints": []
-          },
-          "preferredTileWidth": 1920,
-          "preferredTileHeight": 1440
-        }
+        ]
       },
-      "entryID": 13,
-      "randomizedName": "1b24ce49-ee90-4c5b-8de3-29d94584e749",
-      "imageName": "13.2.jpg",
+      "entryID": 26,
+      "randomizedName": "d40489f4-4372-4553-b763-1687b9a7e248",
+      "imageName": "actin-4609.10-obj10x.jpg",
+      "metadata": {}
+    },
+    {
+      "serverBuilder": {
+        "builderType": "uri",
+        "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+        "uri": "file:/Users/zyoonkim/cs/qupathAutomation/UROPQuPath/Ben_KO_imgs/actin-4622.01-obj10x.jpg",
+        "args": [
+          "--series",
+          "0"
+        ]
+      },
+      "entryID": 27,
+      "randomizedName": "6fd76ae7-28d4-4c49-ac4a-3190e7b18a76",
+      "imageName": "actin-4622.01-obj10x.jpg",
+      "metadata": {}
+    },
+    {
+      "serverBuilder": {
+        "builderType": "uri",
+        "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+        "uri": "file:/Users/zyoonkim/cs/qupathAutomation/UROPQuPath/Ben_KO_imgs/actin-4622.001-obj10x.jpg",
+        "args": [
+          "--series",
+          "0"
+        ]
+      },
+      "entryID": 28,
+      "randomizedName": "344b0505-f63d-4bec-bdb0-d8dce35d5963",
+      "imageName": "actin-4622.001-obj10x.jpg",
+      "metadata": {}
+    },
+    {
+      "serverBuilder": {
+        "builderType": "uri",
+        "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+        "uri": "file:/Users/zyoonkim/cs/qupathAutomation/UROPQuPath/Ben_KO_imgs/actin-4622.03-obj10x.jpg",
+        "args": [
+          "--series",
+          "0"
+        ]
+      },
+      "entryID": 29,
+      "randomizedName": "a3db19f7-2b44-46ff-b2e7-7a8abc02d742",
+      "imageName": "actin-4622.03-obj10x.jpg",
+      "metadata": {}
+    },
+    {
+      "serverBuilder": {
+        "builderType": "uri",
+        "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+        "uri": "file:/Users/zyoonkim/cs/qupathAutomation/UROPQuPath/Ben_KO_imgs/actin-4622.10-obj10x.jpg",
+        "args": [
+          "--series",
+          "0"
+        ]
+      },
+      "entryID": 30,
+      "randomizedName": "2e3f1bd9-ae45-4e8d-bbd6-858a8cdf2465",
+      "imageName": "actin-4622.10-obj10x.jpg",
+      "metadata": {}
+    },
+    {
+      "serverBuilder": {
+        "builderType": "uri",
+        "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+        "uri": "file:/Users/zyoonkim/cs/qupathAutomation/UROPQuPath/Ben_KO_imgs/actin-4963.00-obj10x.jpg",
+        "args": [
+          "--series",
+          "0"
+        ]
+      },
+      "entryID": 31,
+      "randomizedName": "57155fcf-1ff8-4e1b-b569-725bee880f71",
+      "imageName": "actin-4963.00-obj10x.jpg",
+      "metadata": {}
+    },
+    {
+      "serverBuilder": {
+        "builderType": "uri",
+        "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+        "uri": "file:/Users/zyoonkim/cs/qupathAutomation/UROPQuPath/Ben_KO_imgs/actin-4963.01-obj10x_01.jpg",
+        "args": [
+          "--series",
+          "0"
+        ]
+      },
+      "entryID": 32,
+      "randomizedName": "360d3d6d-714d-4f6c-8cbe-6f6ab0164ba8",
+      "imageName": "actin-4963.01-obj10x_01.jpg",
+      "metadata": {}
+    },
+    {
+      "serverBuilder": {
+        "builderType": "uri",
+        "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+        "uri": "file:/Users/zyoonkim/cs/qupathAutomation/UROPQuPath/Ben_KO_imgs/actin-4963.01-obj10x.jpg",
+        "args": [
+          "--series",
+          "0"
+        ]
+      },
+      "entryID": 33,
+      "randomizedName": "1da3c1b4-f596-429c-86f8-1fe746e28261",
+      "imageName": "actin-4963.01-obj10x.jpg",
+      "metadata": {}
+    },
+    {
+      "serverBuilder": {
+        "builderType": "uri",
+        "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+        "uri": "file:/Users/zyoonkim/cs/qupathAutomation/UROPQuPath/Ben_KO_imgs/actin-4963.03-obj10x.jpg",
+        "args": [
+          "--series",
+          "0"
+        ]
+      },
+      "entryID": 34,
+      "randomizedName": "91a95e85-5cdc-4dd8-86da-6a3f9da12e3e",
+      "imageName": "actin-4963.03-obj10x.jpg",
+      "metadata": {}
+    },
+    {
+      "serverBuilder": {
+        "builderType": "uri",
+        "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+        "uri": "file:/Users/zyoonkim/cs/qupathAutomation/UROPQuPath/Ben_KO_imgs/actin-A516.01-obj10x.jpg",
+        "args": [
+          "--series",
+          "0"
+        ]
+      },
+      "entryID": 35,
+      "randomizedName": "59114eaa-30c7-4411-abae-03aafbd957a9",
+      "imageName": "actin-A516.01-obj10x.jpg",
+      "metadata": {}
+    },
+    {
+      "serverBuilder": {
+        "builderType": "uri",
+        "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+        "uri": "file:/Users/zyoonkim/cs/qupathAutomation/UROPQuPath/Ben_KO_imgs/actin-A516.03-obj10x.jpg",
+        "args": [
+          "--series",
+          "0"
+        ]
+      },
+      "entryID": 36,
+      "randomizedName": "440c7ac5-f709-4c88-ba5a-3e639f09f73b",
+      "imageName": "actin-A516.03-obj10x.jpg",
+      "metadata": {}
+    },
+    {
+      "serverBuilder": {
+        "builderType": "uri",
+        "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+        "uri": "file:/Users/zyoonkim/cs/qupathAutomation/UROPQuPath/Ben_KO_imgs/actin-A516.10-obj10x.jpg",
+        "args": [
+          "--series",
+          "0"
+        ]
+      },
+      "entryID": 37,
+      "randomizedName": "cffb9c38-6bac-40bd-a28f-1fb5d18924b6",
+      "imageName": "actin-A516.10-obj10x.jpg",
+      "metadata": {}
+    },
+    {
+      "serverBuilder": {
+        "builderType": "uri",
+        "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+        "uri": "file:/Users/zyoonkim/cs/qupathAutomation/UROPQuPath/Ben_KO_imgs/actin-A519.00-obj10x.jpg",
+        "args": [
+          "--series",
+          "0"
+        ]
+      },
+      "entryID": 38,
+      "randomizedName": "c9c91d2c-27e3-448e-8035-d3be37de5dc1",
+      "imageName": "actin-A519.00-obj10x.jpg",
+      "metadata": {}
+    },
+    {
+      "serverBuilder": {
+        "builderType": "uri",
+        "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+        "uri": "file:/Users/zyoonkim/cs/qupathAutomation/UROPQuPath/Ben_KO_imgs/actin-A519.03-obj10x.jpg",
+        "args": [
+          "--series",
+          "0"
+        ]
+      },
+      "entryID": 39,
+      "randomizedName": "6eebfaee-4116-4950-94e3-86ced269c4ad",
+      "imageName": "actin-A519.03-obj10x.jpg",
+      "metadata": {}
+    },
+    {
+      "serverBuilder": {
+        "builderType": "uri",
+        "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+        "uri": "file:/Users/zyoonkim/cs/qupathAutomation/UROPQuPath/Ben_KO_imgs/actin-A519.10-obj10x.jpg",
+        "args": [
+          "--series",
+          "0"
+        ]
+      },
+      "entryID": 40,
+      "randomizedName": "f5b078b2-ffd2-4cff-aab2-636894446e0b",
+      "imageName": "actin-A519.10-obj10x.jpg",
+      "metadata": {}
+    },
+    {
+      "serverBuilder": {
+        "builderType": "uri",
+        "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+        "uri": "file:/Users/zyoonkim/cs/qupathAutomation/UROPQuPath/Ben_KO_imgs/actin-A521.00-obj10x.jpg",
+        "args": [
+          "--series",
+          "0"
+        ]
+      },
+      "entryID": 41,
+      "randomizedName": "a6dd9e69-b28e-424d-bdb8-f29825ba77d6",
+      "imageName": "actin-A521.00-obj10x.jpg",
+      "metadata": {}
+    },
+    {
+      "serverBuilder": {
+        "builderType": "uri",
+        "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+        "uri": "file:/Users/zyoonkim/cs/qupathAutomation/UROPQuPath/Ben_KO_imgs/actin-A521.01-obj10x.jpg",
+        "args": [
+          "--series",
+          "0"
+        ]
+      },
+      "entryID": 42,
+      "randomizedName": "6d33561b-6a81-48f0-989c-6047f0292c65",
+      "imageName": "actin-A521.01-obj10x.jpg",
+      "metadata": {}
+    },
+    {
+      "serverBuilder": {
+        "builderType": "uri",
+        "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+        "uri": "file:/Users/zyoonkim/cs/qupathAutomation/UROPQuPath/Ben_KO_imgs/actin-A521.03-obj10x.jpg",
+        "args": [
+          "--series",
+          "0"
+        ]
+      },
+      "entryID": 43,
+      "randomizedName": "b51422ba-ab5b-4d69-ac6a-62df5ffb2372",
+      "imageName": "actin-A521.03-obj10x.jpg",
       "metadata": {}
     }
   ]
