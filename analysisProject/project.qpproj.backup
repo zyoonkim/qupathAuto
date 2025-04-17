@@ -3,8 +3,23 @@
   "createTimestamp": 1738870577290,
   "modifyTimestamp": 1738870577290,
   "uri": "file:/Users/zyoonkim/cs/qupathAutomation/analysisProject/project.qpproj",
-  "lastID": 43,
+  "lastID": 64,
   "images": [
+    {
+      "serverBuilder": {
+        "builderType": "uri",
+        "providerClassName": "qupath.lib.images.servers.bioformats.BioFormatsServerBuilder",
+        "uri": "file:/Users/zyoonkim/cs/qupathAutomation/UROPQuPath/Ben_KO_imgs/actin-A521.01-obj10x.jpg",
+        "args": [
+          "--series",
+          "0"
+        ]
+      },
+      "entryID": 42,
+      "randomizedName": "6d33561b-6a81-48f0-989c-6047f0292c65",
+      "imageName": "actin-A521.01-obj10x.jpg",
+      "metadata": {}
+    },
     {
       "serverBuilder": {
         "builderType": "uri",
@@ -13,59 +28,10 @@
         "args": [
           "--series",
           "0"
-        ],
-        "metadata": {
-          "name": "actin-4607.10-obj10x.jpg",
-          "width": 1920,
-          "height": 1440,
-          "sizeZ": 1,
-          "sizeT": 1,
-          "channelType": "DEFAULT",
-          "isRGB": true,
-          "pixelType": "UINT8",
-          "levels": [
-            {
-              "downsample": 1.0,
-              "width": 1920,
-              "height": 1440
-            }
-          ],
-          "channels": [
-            {
-              "name": "Red",
-              "color": -65536
-            },
-            {
-              "name": "Green",
-              "color": -16711936
-            },
-            {
-              "name": "Blue",
-              "color": -16776961
-            }
-          ],
-          "pixelCalibration": {
-            "pixelWidth": {
-              "value": 1.0,
-              "unit": "px"
-            },
-            "pixelHeight": {
-              "value": 1.0,
-              "unit": "px"
-            },
-            "zSpacing": {
-              "value": 1.0,
-              "unit": "z-slice"
-            },
-            "timeUnit": "SECONDS",
-            "timepoints": []
-          },
-          "preferredTileWidth": 1920,
-          "preferredTileHeight": 1440
-        }
+        ]
       },
-      "entryID": 23,
-      "randomizedName": "a932682f-fd5b-4c7c-970d-eab6296da34c",
+      "entryID": 44,
+      "randomizedName": "3d70098a-5d59-41a8-b6a4-38a36b93a847",
       "imageName": "actin-4607.10-obj10x.jpg",
       "metadata": {}
     },
@@ -79,8 +45,8 @@
           "0"
         ]
       },
-      "entryID": 24,
-      "randomizedName": "9a099301-b70d-46b0-90e2-60d98d32955f",
+      "entryID": 45,
+      "randomizedName": "d4fdb4b7-2c9b-4612-92f1-ae72118f6e92",
       "imageName": "actin-4609.00-obj10x.jpg",
       "metadata": {}
     },
@@ -94,8 +60,8 @@
           "0"
         ]
       },
-      "entryID": 25,
-      "randomizedName": "be55897f-f184-4f4f-8bd7-a0672c498284",
+      "entryID": 46,
+      "randomizedName": "bd556877-779a-4926-8f0c-c07223c15d64",
       "imageName": "actin-4609.03-obj10x.jpg",
       "metadata": {}
     },
@@ -109,8 +75,8 @@
           "0"
         ]
       },
-      "entryID": 26,
-      "randomizedName": "1a724b25-4e85-4c46-9734-95adf56fb26a",
+      "entryID": 47,
+      "randomizedName": "44dfca07-8346-4bd8-9bb0-146fbfa9f82f",
       "imageName": "actin-4609.10-obj10x.jpg",
       "metadata": {}
     },
@@ -124,8 +90,8 @@
           "0"
         ]
       },
-      "entryID": 27,
-      "randomizedName": "beb707ac-f7db-40f0-8e65-53717f26c865",
+      "entryID": 48,
+      "randomizedName": "10a976cd-f824-485e-8e48-f7c01134d588",
       "imageName": "actin-4622.01-obj10x.jpg",
       "metadata": {}
     },
@@ -139,8 +105,8 @@
           "0"
         ]
       },
-      "entryID": 28,
-      "randomizedName": "c498309a-7177-4df7-bb0d-40cb2cc9dc11",
+      "entryID": 49,
+      "randomizedName": "1672ff0a-2550-4067-9054-a2c8c09c03c8",
       "imageName": "actin-4622.001-obj10x.jpg",
       "metadata": {}
     },
@@ -154,8 +120,8 @@
           "0"
         ]
       },
-      "entryID": 29,
-      "randomizedName": "79173de5-83fe-475a-95fe-c34e9dc15062",
+      "entryID": 50,
+      "randomizedName": "5ca7da12-c98b-4538-8119-48a0bec401d1",
       "imageName": "actin-4622.03-obj10x.jpg",
       "metadata": {}
     },
@@ -169,8 +135,8 @@
           "0"
         ]
       },
-      "entryID": 30,
-      "randomizedName": "f89869ee-6f3f-4cc0-9e24-04bb597faecd",
+      "entryID": 51,
+      "randomizedName": "dd8aad1b-f529-413c-a7ad-cc9bfe0f9e36",
       "imageName": "actin-4622.10-obj10x.jpg",
       "metadata": {}
     },
@@ -184,8 +150,8 @@
           "0"
         ]
       },
-      "entryID": 31,
-      "randomizedName": "b59a10c2-9002-4934-a25a-b130795677f9",
+      "entryID": 52,
+      "randomizedName": "26d5c56f-b6b8-40ef-ae45-d6862b4d1b3d",
       "imageName": "actin-4963.00-obj10x.jpg",
       "metadata": {}
     },
@@ -199,8 +165,8 @@
           "0"
         ]
       },
-      "entryID": 32,
-      "randomizedName": "eac19ba5-faf8-46b4-852f-51be3ed07b63",
+      "entryID": 53,
+      "randomizedName": "0fbef341-b75b-4f60-8bac-ca424164a381",
       "imageName": "actin-4963.01-obj10x_01.jpg",
       "metadata": {}
     },
@@ -214,8 +180,8 @@
           "0"
         ]
       },
-      "entryID": 33,
-      "randomizedName": "16dde721-727e-4fb0-9634-87d822dd8716",
+      "entryID": 54,
+      "randomizedName": "ae1498cb-4066-4f24-a135-a6e395caadb8",
       "imageName": "actin-4963.01-obj10x.jpg",
       "metadata": {}
     },
@@ -229,8 +195,8 @@
           "0"
         ]
       },
-      "entryID": 34,
-      "randomizedName": "f1bf69e3-8a06-4b94-b1b1-a4d111fcbd78",
+      "entryID": 55,
+      "randomizedName": "43731240-8c68-4a5d-aaff-d9015118a8c2",
       "imageName": "actin-4963.03-obj10x.jpg",
       "metadata": {}
     },
@@ -244,8 +210,8 @@
           "0"
         ]
       },
-      "entryID": 35,
-      "randomizedName": "52e23002-f037-4239-a065-76f4c2581858",
+      "entryID": 56,
+      "randomizedName": "951abc68-aee1-44b2-93ab-bc05c14122d0",
       "imageName": "actin-A516.01-obj10x.jpg",
       "metadata": {}
     },
@@ -259,8 +225,8 @@
           "0"
         ]
       },
-      "entryID": 36,
-      "randomizedName": "2c2a8959-0569-40ef-a1d5-6ea7d7930968",
+      "entryID": 57,
+      "randomizedName": "d1584856-8476-420f-be45-47ea7f273c6c",
       "imageName": "actin-A516.03-obj10x.jpg",
       "metadata": {}
     },
@@ -274,8 +240,8 @@
           "0"
         ]
       },
-      "entryID": 37,
-      "randomizedName": "21ebbc53-269b-4169-9417-4b8dde9d0dd5",
+      "entryID": 58,
+      "randomizedName": "cf75b7ac-1a8e-49d1-8f70-a63f234f642a",
       "imageName": "actin-A516.10-obj10x.jpg",
       "metadata": {}
     },
@@ -289,8 +255,8 @@
           "0"
         ]
       },
-      "entryID": 38,
-      "randomizedName": "f3d438bb-4896-4e05-8ade-dd377eb9322e",
+      "entryID": 59,
+      "randomizedName": "442bbd9a-03a7-42be-9964-6206421fae55",
       "imageName": "actin-A519.00-obj10x.jpg",
       "metadata": {}
     },
@@ -304,8 +270,8 @@
           "0"
         ]
       },
-      "entryID": 39,
-      "randomizedName": "6176a4d9-8d59-4d76-81a6-272c06db7ef4",
+      "entryID": 60,
+      "randomizedName": "5491afa2-3908-4067-a060-5676c7b23aea",
       "imageName": "actin-A519.03-obj10x.jpg",
       "metadata": {}
     },
@@ -319,8 +285,8 @@
           "0"
         ]
       },
-      "entryID": 40,
-      "randomizedName": "44fa8afe-86bf-4028-8e2e-18ee2b26c1fb",
+      "entryID": 61,
+      "randomizedName": "79ab6e47-2dc9-4540-9c81-92a8d3f0d300",
       "imageName": "actin-A519.10-obj10x.jpg",
       "metadata": {}
     },
@@ -334,8 +300,8 @@
           "0"
         ]
       },
-      "entryID": 41,
-      "randomizedName": "9a75f75c-9529-41dc-a87b-13a8e50671c4",
+      "entryID": 62,
+      "randomizedName": "7075bb35-6e24-4466-9a37-1f2f7796a8cf",
       "imageName": "actin-A521.00-obj10x.jpg",
       "metadata": {}
     },
@@ -349,8 +315,8 @@
           "0"
         ]
       },
-      "entryID": 42,
-      "randomizedName": "82f77e83-20a7-4a4b-a96f-d0b4f8c1a7f6",
+      "entryID": 63,
+      "randomizedName": "e1d2f4c3-85bd-451e-b4fa-f67b92288a61",
       "imageName": "actin-A521.01-obj10x.jpg",
       "metadata": {}
     },
@@ -364,8 +330,8 @@
           "0"
         ]
       },
-      "entryID": 43,
-      "randomizedName": "037f4564-f204-461d-94ff-b5ffee3de59f",
+      "entryID": 64,
+      "randomizedName": "72dd1bcc-4fc7-4943-81d1-98592964fafa",
       "imageName": "actin-A521.03-obj10x.jpg",
       "metadata": {}
     }
