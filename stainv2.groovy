@@ -22,6 +22,7 @@ for (entry in getProject().getImageList()) {
     // Now set stain vector (H-DAB)
     setColorDeconvolutionStains('{"Name" : "H-DAB default", "Stain 1" : "Hematoxylin", "Values 1" : "0.65111 0.701190 0.29049", "Stain 2" : "DAB", "Values 2" : "0.26917 0.568240 0.77759", "Background" : "255 255 255"}')
 
+
     // Run positive cell detection
     runPlugin('qupath.imagej.detect.cells.PositiveCellDetection',
     '{"detectionImageBrightfield": "Optical density sum", ' +
