@@ -1,8 +1,8 @@
 import pandas as pd
 
 # set file paths
-csv_file_path = "/Users/zyoonkim/cs/qupathAutomation/UROPQuPath/codeddata/annotation_summary.csv"
-excel_file_path = "/Users/zyoonkim/cs/qupathAutomation/UROPQuPath/codeddata/annotation_summary.xlsx"
+csv_file_path = "./cell_detection_results.csv"
+excel_file_path = "./cell_detection_results.xlsx"
 
 try:
  

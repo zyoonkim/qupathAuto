@@ -13,10 +13,59 @@
         "args": [
           "--series",
           "0"
-        ]
+        ],
+        "metadata": {
+          "name": "actin-A521.01-obj10x.jpg",
+          "width": 1920,
+          "height": 1440,
+          "sizeZ": 1,
+          "sizeT": 1,
+          "channelType": "DEFAULT",
+          "isRGB": true,
+          "pixelType": "UINT8",
+          "levels": [
+            {
+              "downsample": 1.0,
+              "width": 1920,
+              "height": 1440
+            }
+          ],
+          "channels": [
+            {
+              "name": "Red",
+              "color": -65536
+            },
+            {
+              "name": "Green",
+              "color": -16711936
+            },
+            {
+              "name": "Blue",
+              "color": -16776961
+            }
+          ],
+          "pixelCalibration": {
+            "pixelWidth": {
+              "value": 1.0,
+              "unit": "px"
+            },
+            "pixelHeight": {
+              "value": 1.0,
+              "unit": "px"
+            },
+            "zSpacing": {
+              "value": 1.0,
+              "unit": "z-slice"
+            },
+            "timeUnit": "SECONDS",
+            "timepoints": []
+          },
+          "preferredTileWidth": 1920,
+          "preferredTileHeight": 1440
+        }
       },
       "entryID": 42,
-      "randomizedName": "6d33561b-6a81-48f0-989c-6047f0292c65",
+      "randomizedName": "9d1c7d3b-abcf-4c84-9607-171f4dfaba7b",
       "imageName": "actin-A521.01-obj10x.jpg",
       "metadata": {}
     },
@@ -31,7 +80,7 @@
         ]
       },
       "entryID": 44,
-      "randomizedName": "3d70098a-5d59-41a8-b6a4-38a36b93a847",
+      "randomizedName": "a8e7b5a4-fd85-420a-884e-0e445922ffac",
       "imageName": "actin-4607.10-obj10x.jpg",
       "metadata": {}
     },
@@ -46,7 +95,7 @@
         ]
       },
       "entryID": 45,
-      "randomizedName": "d4fdb4b7-2c9b-4612-92f1-ae72118f6e92",
+      "randomizedName": "26e33431-730f-421d-92d0-94cad94ea743",
       "imageName": "actin-4609.00-obj10x.jpg",
       "metadata": {}
     },
@@ -61,7 +110,7 @@
         ]
       },
       "entryID": 46,
-      "randomizedName": "bd556877-779a-4926-8f0c-c07223c15d64",
+      "randomizedName": "3ac74cde-e76c-420e-ab25-8c27cb5d9a4b",
       "imageName": "actin-4609.03-obj10x.jpg",
       "metadata": {}
     },
@@ -76,7 +125,7 @@
         ]
       },
       "entryID": 47,
-      "randomizedName": "44dfca07-8346-4bd8-9bb0-146fbfa9f82f",
+      "randomizedName": "a29469b4-145f-4dc9-ae91-0873871fa5ca",
       "imageName": "actin-4609.10-obj10x.jpg",
       "metadata": {}
     },
@@ -91,7 +140,7 @@
         ]
       },
       "entryID": 48,
-      "randomizedName": "10a976cd-f824-485e-8e48-f7c01134d588",
+      "randomizedName": "55566113-65a2-4554-8b60-cb391624949d",
       "imageName": "actin-4622.01-obj10x.jpg",
       "metadata": {}
     },
@@ -106,7 +155,7 @@
         ]
       },
       "entryID": 49,
-      "randomizedName": "1672ff0a-2550-4067-9054-a2c8c09c03c8",
+      "randomizedName": "a032bb5b-752a-457b-b33a-07e8da57aeb1",
       "imageName": "actin-4622.001-obj10x.jpg",
       "metadata": {}
     },
@@ -121,7 +170,7 @@
         ]
       },
       "entryID": 50,
-      "randomizedName": "5ca7da12-c98b-4538-8119-48a0bec401d1",
+      "randomizedName": "93475398-bd38-4e96-8916-f37ef34d2cc3",
       "imageName": "actin-4622.03-obj10x.jpg",
       "metadata": {}
     },
@@ -136,7 +185,7 @@
         ]
       },
       "entryID": 51,
-      "randomizedName": "dd8aad1b-f529-413c-a7ad-cc9bfe0f9e36",
+      "randomizedName": "76a67b2b-f1f5-4812-89b8-061a2f376b2a",
       "imageName": "actin-4622.10-obj10x.jpg",
       "metadata": {}
     },
@@ -151,7 +200,7 @@
         ]
       },
       "entryID": 52,
-      "randomizedName": "26d5c56f-b6b8-40ef-ae45-d6862b4d1b3d",
+      "randomizedName": "36a6a5d7-4da2-48f6-b1c3-0dc67dceae0b",
       "imageName": "actin-4963.00-obj10x.jpg",
       "metadata": {}
     },
@@ -166,7 +215,7 @@
         ]
       },
       "entryID": 53,
-      "randomizedName": "0fbef341-b75b-4f60-8bac-ca424164a381",
+      "randomizedName": "3048960a-851e-4eb4-83ce-be7cce56db8f",
       "imageName": "actin-4963.01-obj10x_01.jpg",
       "metadata": {}
     },
@@ -181,7 +230,7 @@
         ]
       },
       "entryID": 54,
-      "randomizedName": "ae1498cb-4066-4f24-a135-a6e395caadb8",
+      "randomizedName": "7d55359b-9f46-4aab-8d3b-7e9e779b8033",
       "imageName": "actin-4963.01-obj10x.jpg",
       "metadata": {}
     },
@@ -196,7 +245,7 @@
         ]
       },
       "entryID": 55,
-      "randomizedName": "43731240-8c68-4a5d-aaff-d9015118a8c2",
+      "randomizedName": "6406e967-6558-4c63-8393-f93f531c25db",
       "imageName": "actin-4963.03-obj10x.jpg",
       "metadata": {}
     },
@@ -211,7 +260,7 @@
         ]
       },
       "entryID": 56,
-      "randomizedName": "951abc68-aee1-44b2-93ab-bc05c14122d0",
+      "randomizedName": "e0434edf-b158-4643-a3f6-d8b2cecf4292",
       "imageName": "actin-A516.01-obj10x.jpg",
       "metadata": {}
     },
@@ -226,7 +275,7 @@
         ]
       },
       "entryID": 57,
-      "randomizedName": "d1584856-8476-420f-be45-47ea7f273c6c",
+      "randomizedName": "d049b7c4-adca-42f5-877a-413c9b656647",
       "imageName": "actin-A516.03-obj10x.jpg",
       "metadata": {}
     },
@@ -241,7 +290,7 @@
         ]
       },
       "entryID": 58,
-      "randomizedName": "cf75b7ac-1a8e-49d1-8f70-a63f234f642a",
+      "randomizedName": "cd98e5e9-bba4-48b6-9d62-2d241e19fdb6",
       "imageName": "actin-A516.10-obj10x.jpg",
       "metadata": {}
     },
@@ -256,7 +305,7 @@
         ]
       },
       "entryID": 59,
-      "randomizedName": "442bbd9a-03a7-42be-9964-6206421fae55",
+      "randomizedName": "06d2e147-ef97-4ef4-b12a-c68a24006c0c",
       "imageName": "actin-A519.00-obj10x.jpg",
       "metadata": {}
     },
@@ -271,7 +320,7 @@
         ]
       },
       "entryID": 60,
-      "randomizedName": "5491afa2-3908-4067-a060-5676c7b23aea",
+      "randomizedName": "be044bef-38cb-492f-902f-5c099c6a2668",
       "imageName": "actin-A519.03-obj10x.jpg",
       "metadata": {}
     },
@@ -286,7 +335,7 @@
         ]
       },
       "entryID": 61,
-      "randomizedName": "79ab6e47-2dc9-4540-9c81-92a8d3f0d300",
+      "randomizedName": "c9922bd6-4ac9-4f80-8014-8603268a2a10",
       "imageName": "actin-A519.10-obj10x.jpg",
       "metadata": {}
     },
@@ -301,7 +350,7 @@
         ]
       },
       "entryID": 62,
-      "randomizedName": "7075bb35-6e24-4466-9a37-1f2f7796a8cf",
+      "randomizedName": "5b82d4cc-268b-45f0-8306-4e600b0eee16",
       "imageName": "actin-A521.00-obj10x.jpg",
       "metadata": {}
     },
@@ -316,7 +365,7 @@
         ]
       },
       "entryID": 63,
-      "randomizedName": "e1d2f4c3-85bd-451e-b4fa-f67b92288a61",
+      "randomizedName": "5279fe68-37e9-44ac-9415-010d419e94ae",
       "imageName": "actin-A521.01-obj10x.jpg",
       "metadata": {}
     },
@@ -331,7 +380,7 @@
         ]
       },
       "entryID": 64,
-      "randomizedName": "72dd1bcc-4fc7-4943-81d1-98592964fafa",
+      "randomizedName": "cc5eef71-7923-44b5-8a53-70ab3d921f9b",
       "imageName": "actin-A521.03-obj10x.jpg",
       "metadata": {}
     }

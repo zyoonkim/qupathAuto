@@ -5,7 +5,7 @@ def targetImageName = "actin-4609.00-obj10x.jpg"
 def entry = getProject().getImageList().find { it.getImageName() == targetImageName }
 
 if (entry == null) {
-    println "❌ Image not found: ${targetImageName}"
+    println "Image not found: ${targetImageName}"
     return
 }
 
@@ -58,7 +58,7 @@ def positivePercentage = (cellCount > 0) ? (positiveCells.size() / cellCount) * 
 def positiveArea = positiveCells*.getROI().findAll { it != null }*.getArea().sum()
 
 // Print results
-println "\n📊 ---- Detection Results for ${entry.getImageName()} ----"
+println "\n ---- Detection Results for ${entry.getImageName()} ----"
 println "Total cells:        ${cellCount}"
 println "Negative cells:     ${numNegative}"
 println "Positive %:         ${positivePercentage.round(2)}"
